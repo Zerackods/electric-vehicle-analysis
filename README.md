@@ -1,15 +1,14 @@
-# Electric Vehicle Analysis
+# Análisis de Vehículos Eléctricos
 
-## Overview
+## Descripción general
 
-Analysis of electric vehicle population data using Python.
+Análisis de datos sobre la población de vehículos eléctricos mediante Python.
 
-## Objective
+## Objetivo
 
-Identify the most common electric vehicle type and evaluate whether
-the vehicle type can be predicted using available characteristics.
+Identifique el tipo de vehículo eléctrico más común y evalúe si dicho tipo de vehículo puede predecirse utilizando las características disponibles.
 
-## Technologies
+## Tecnologías
 
 - Python
 - Pandas
@@ -18,23 +17,21 @@ the vehicle type can be predicted using available characteristics.
 - Seaborn
 - Scikit-learn
 
-## Analysis
+## Análisis
 
-- Data cleaning
-- Exploratory data analysis
-- Data visualization
-- Feature analysis
-- Predictive modeling
+- Limpieza de datos
+- Análisis exploratorio de datos
+- Visualización de datos
+- Análisis de características
+- Modelado predictivo
 
-## Results
+## Resultados
 
-An analysis of 112,328 electric vehicles registered in Washington State revealed that BEVs dominate the market with a 76.4% share compared to 23.6% for PHEVs;
-Tesla accounts for 46.2% of the total, Seattle leads in adoption, and 2022 saw the highest number of registrations, confirming a trend of sustained growth since 2020. 
-A KNN model (K=3) predicted the vehicle type with 99.93% accuracy and an F1-score of 99.91%—validated against a baseline classifier of 76.43%
-demonstrating that "electric_range" is the most discriminating variable, given the minimal physical overlap between the two types.
+El análisis de 112,328 vehículos eléctricos registrados en Washington State reveló que los BEV dominan el mercado con 76.4% frente al 23.6% de PHEV, con Tesla concentrando el 46.2% del total, Seattle como ciudad líder en adopción y 2022 como el año de mayor registro, confirmando una tendencia de crecimiento sostenida desde 2020. El modelo KNN con K=3 predijo el tipo de vehículo con un accuracy de 99.93% y F1-score de 99.91%, validado frente a un clasificador base de 76.43%, demostrando que electric_range es la variable más discriminante dado el mínimo solapamiento físico entre ambos tipos.
 
-## Conclusion
+## Conclusiones
 
-Tesla’s 46.2% market concentration signals a genuine opportunity for other brands in the long-range BEV segment, where demand exists but product variety is limited. 
-The top 10 cities—led by Seattle—should be prioritized for fast-charging infrastructure investment, as they already possess a critical mass of users.
+La concentración del 46.2% en Tesla indica una oportunidad de mercado real para otras marcas en el segmento BEV de largo alcance, donde existe demanda pero poca diversidad de oferta. Las ciudades del top 10, encabezadas por Seattle, deben priorizarse para inversión en infraestructura de carga rápida al ya contar con masa crítica de usuarios.
+
+
 
